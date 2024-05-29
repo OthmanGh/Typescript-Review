@@ -1,0 +1,11 @@
+"use strict";
+let id = 4;
+let company = 'Unity Pulse';
+let isPublished = true;
+let ids = [1, 2, 3, 4, 5, 6];
+let x = 'any type can be...';
+let xArr = ['one', 1, true];
+const concatenateValues = (a, b) => `${a}${b}`;
+console.log(concatenateValues('Hello ', 'World'));
+console.log(concatenateValues('My ', 'Name'));
+console.log(concatenateValues(10, 15));
